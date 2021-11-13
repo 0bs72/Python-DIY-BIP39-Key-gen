@@ -1,1 +1,6 @@
+- Automate the bip-0039/english.txt fetch.
+    - Fetch the file
+    - If the file exists locally, check that it's a match
+        - A simple hash check should do the job
+    - Check that the local file is 'read only' and make it so if it's not
 Create a GUI front end.
